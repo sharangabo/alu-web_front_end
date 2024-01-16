@@ -1,4 +1,5 @@
 :root {
+    --section-title-color: var(--color-black);
 
     --section-title-margin: 0;
     --section-title-color: var(--text-color);
@@ -16,6 +17,8 @@
     --text-color: #090909;
   
   }
+  
+  
   
   .section-title {
     font-family: var(--font-family-title);
