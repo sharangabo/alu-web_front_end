@@ -40,6 +40,7 @@
     padding: calc(var(--section-padding) / 2) 0; /* half of the root element for top and bottom, equal to the root element for left and right */
   }
   
+  
   /* Hover Effect for Nav Link */
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
