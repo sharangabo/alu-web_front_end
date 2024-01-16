@@ -1,0 +1,28 @@
+:root {
+    --section-header-align: center;
+  
+    --section-tagline-transform: uppercase;
+  
+    --font-family-title: Raleway, 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif; 
+  
+    --font-weight-bold: 700;
+  
+    --color-primary: #d73953;
+    --text-color: var(--color-black);
+  }
+  
+  .section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);  
+  }
+  
+  .section-header {
+    text-align: var(--section-header-align);
+  }
+  
+  body {
+    font-family: var(--font-family-base); 
+    color: var(--text-color);   
+  }

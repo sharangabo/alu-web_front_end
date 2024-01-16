@@ -1,0 +1,42 @@
+/* Import styles from 17-style.css */
+@import url('path/to/17-style.css');
+
+/* Custom properties */
+:root {
+  --nav-item-font-family: font-family-title;
+  --nav-item-font-weight: font-weight-bold;
+  --nav-item-font-size: font-size-medium;
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 calc(3 * 1rem) 0;
+  --nav-item-link-hover: color-primary;
+}
+
+/* Navbar customization */
+.navbar-menu {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+.nav-link {
+  display: block;
+  padding: calc(0.5 * 1rem) 1rem;
+}
+
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
+}

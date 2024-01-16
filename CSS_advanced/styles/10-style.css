@@ -1,0 +1,30 @@
+:root {
+    --section-header-align: center;
+  
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+  
+    --font-family-base: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+  
+    --color-primary: #d73953;
+    --text-color: var(--color-black);
+  }
+  
+  .section-header {
+    text-align: var(--section-header-align);  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: var(--font-family-base);
+    line-height: var(--line-height-base);
+    color: var(--text-color);  
+  }
+  
+  .section-tagline {
+    color: var(--color-primary);
+  }

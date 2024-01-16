@@ -1,0 +1,34 @@
+/* Import styles from 16-style.css */
+@import url('path/to/16-style.css');
+
+/* Custom properties */
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+}
+
+/* Apply custom properties */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+.footer {
+  padding: var(--footer-padding);
+}
