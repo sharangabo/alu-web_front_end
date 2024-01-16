@@ -1,14 +1,14 @@
 :root {
     --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;  
   }
   
   body {
-    font-family: var(--font-family-base);  
+    font-family: var(--font-family-base);
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
+    font-family: var(--font-family-title); 
   }
   
   a {
@@ -17,7 +17,7 @@
   
   .visually-hidden {
     display: none;
-  } 
+  }
   
   .card-category {
     color: var(--color-primary);
